@@ -1,11 +1,17 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  {
+
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+
+    "start": "react-scripts start",  // ou o que for apropriado para iniciar a aplicação localmente
+
+    "build": "react-scripts build",  // comando de build
+
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "web": "react-scripts --web"
+
+    "eject": "react-scripts eject"
+
   },
   "dependencies": {
     "expo": "~50.0.17",
