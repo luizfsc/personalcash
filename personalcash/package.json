@@ -18,7 +18,7 @@
 
     "eject": "expo eject",
 
-    "build": "npx expo export:web"
+    "build": "expo export" // Atualizando o comando de build
 
   },
 
