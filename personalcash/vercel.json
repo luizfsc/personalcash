@@ -12,7 +12,7 @@
 
       "config": {
 
-        "distDir": "dist" // Diretório de saída após o export do Expo
+        "distDir": "dist"
 
       }
 
