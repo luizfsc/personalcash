@@ -14,7 +14,9 @@
 
         "installCommand": "npm install --legacy-peer-deps",
 
-        "buildCommand": "npm run build"
+        "buildCommand": "npm run build", // Script de build atualizado
+
+        "outputDirectory": "web-build" // Diretório de saída padrão do Expo para web builds
 
       }
 
@@ -28,7 +30,7 @@
 
       "src": "/(.*)",
 
-      "dest": "/index.html"
+      "dest": "/web-build/$1" // Certifique-se que está correto
 
     }
 
