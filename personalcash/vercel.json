@@ -8,17 +8,7 @@
 
       "src": "package.json",
 
-      "use": "@vercel/static-build",
-
-      "config": {
-
-        "installCommand": "npm install --legacy-peer-deps",
-
-        "buildCommand": "npm run build", // Script de build atualizado
-
-        "outputDirectory": "web-build" // Diretório de saída padrão do Expo para web builds
-
-      }
+      "use": "@vercel/static-build"
 
     }
 
@@ -30,7 +20,7 @@
 
       "src": "/(.*)",
 
-      "dest": "/web-build/$1" // Certifique-se que está correto
+      "dest": "/index.html"
 
     }
 
