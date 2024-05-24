@@ -12,7 +12,7 @@
 
       "config": {
 
-        "distDir": "web-build" // Diretório de saída padrão do Expo para web builds
+        "distDir": "web-build"
 
       }
 
