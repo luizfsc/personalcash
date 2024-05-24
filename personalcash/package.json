@@ -1,15 +1,11 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
-  {
-
+  "name": "react-app",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-
-    "start": "react-scripts start",  // ou o que for apropriado para iniciar a aplicação localmente
-
-    "build": "react-scripts build",  // comando de build
-
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-
     "eject": "react-scripts eject"
 
   },
@@ -17,6 +13,7 @@
     "expo": "~50.0.17",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
+    "react-dom": "^17.0.2",
     "react-native": "0.73.6",
     "axios": "*",
     "moment": "*",
