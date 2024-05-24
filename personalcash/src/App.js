@@ -1,43 +1,37 @@
-import React from 'react';
+ import React from 'react';
 
-import ReactDOM from 'react-dom';
+    import { NavigationContainer } from '@react-navigation/native';
 
-import { NavigationContainer } from '@react-navigation/native';
+    import Route from './navigations/Route';
 
-import Route from './src/navigations/Route';
+    import UserProvider from './contexts/UserContext';
 
-import UserProvider from './src/contexts/UserContext';
-
-import { PerfilProvider } from './src/contexts/PerfilContext';
+    import { PerfilProvider } from './contexts/PerfilContext';
 
 
 
-const App = () => {
+    const App = () => {
 
-  return (
+      return (
 
-    <UserProvider>
+        <UserProvider>
 
-      <PerfilProvider>
+          <PerfilProvider>
 
-        <NavigationContainer>
+            <NavigationContainer>
 
-          <Route />
+              <Route />
 
-        </NavigationContainer>
+            </NavigationContainer>
 
-      </PerfilProvider>
+          </PerfilProvider>
 
-    </UserProvider>
+        </UserProvider>
 
-  );
+      );
 
-};
-
-
-
-ReactDOM.render(<App />, document.getElementById('root'));
+    };
 
 
 
-export default App;
+    export default App;
