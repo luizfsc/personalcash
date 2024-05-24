@@ -48,8 +48,6 @@
 
     "react-native-paper": "4.12.6",
 
-    "react-native-picker": "*",
-
     "react-native-safe-area-context": "4.8.2",
 
     "react-native-screens": "~3.29.0",
@@ -62,7 +60,7 @@
 
     "@react-native-community/datetimepicker": "7.6.1",
 
-    "@react-native-community/picker": "*",
+    "@react-native-picker/picker": "^2.4.2",
 
     "@react-navigation/native": "*",
 
