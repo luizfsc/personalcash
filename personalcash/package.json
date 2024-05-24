@@ -18,6 +18,8 @@
 
     "eject": "expo eject"
 
+    "build": "expo build:web"
+
   },
 
   "dependencies": {
