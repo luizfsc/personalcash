@@ -1,11 +1,11 @@
- {
+{
      "build": {
        "production": {
          "releaseChannel": "production",
          "distribution": "store",
          "android": {
            "buildType": "apk",
-           "image": "default"
+           "image": "ubuntu-20.04-node-20.x"
          }
        }
      }
