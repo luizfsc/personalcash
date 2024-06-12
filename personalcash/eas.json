@@ -1,12 +1,19 @@
-{
-  "build": {
-    "production": {
-      "releaseChannel": "production",
-      "distribution": "store",
-      "android": {
-        "buildType": "apk",
-        "image": "ubuntu-22.04-jdk-11-ndk-r21e"
-      }
-    }
-  }
-}
+  {
+     "build": {
+       "production": {
+         "releaseChannel": "production",
+         "distribution": "store",
+         "android": {
+           "buildType": "apk",
+           "image": "ubuntu-22.04-jdk-11-ndk-r21e",
+           "prebuildCommands": [
+             "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash",
+             ". ~/.nvm/nvm.sh",
+             "nvm install 20",
+             "nvm use 20",
+             "node -v"  // Verifique se a versão correta do Node.js está sendo usada
+           ]
+         }
+       }
+     }
+   }
