@@ -1,12 +1,12 @@
 {
-     "build": {
-       "production": {
-         "releaseChannel": "production",
-         "distribution": "store",
-         "android": {
-           "buildType": "apk",
-           "image": "ubuntu-20.04-node-20.x"
-         }
-       }
-     }
-   }
+  "build": {
+    "production": {
+      "releaseChannel": "production",
+      "distribution": "store",
+      "android": {
+        "buildType": "apk",
+        "image": "ubuntu-22.04-jdk-11-ndk-r21e"
+      }
+    }
+  }
+}
