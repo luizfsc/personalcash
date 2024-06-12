@@ -4,7 +4,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "postinstall": "node ensure-node-version.js"
   },
   "dependencies": {
     "expo": "~50.0.17",
@@ -33,13 +34,8 @@
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
-  "private": true
-
-
+  "private": true,
   "engines": {
-
     "node": "20.x"
-
   }
-
 }
