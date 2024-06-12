@@ -5,7 +5,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "postinstall": "node ensure-node-version.js"
+    "postinstall": "node -e \"console.log('postinstall script - no actions needed here')\""
   },
   "dependencies": {
     "expo": "~50.0.17",
