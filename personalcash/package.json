@@ -5,7 +5,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "postinstall": "node -e \"console.log('postinstall script - no actions needed here')\""
+    "prepare": "npx -y better-nvm install 20.0.0 && npx -y better-nvm use 20.0.0"
   },
   "dependencies": {
     "expo": "~50.0.17",
